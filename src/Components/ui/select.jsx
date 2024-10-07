@@ -7,7 +7,7 @@ export const Select = forwardRef(({ className, children, ...props }, ref) => {
     <div className={`relative ${className}`}>
       <select
         ref={ref}
-        className="w-full h-10 pl-3 pr-10 text-base placeholder-gray-600 border rounded-lg appearance-none focus:shadow-outline"
+        className="w-full h-10 pl-3 pr-10 text-base placeholder-gray-600 border rounded-lg appearance-none focus:shadow-outline border-[#7E8EF1]"
         {...props}
       >
         {children}
